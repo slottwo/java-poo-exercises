@@ -9,7 +9,7 @@ public class Wage {
     try (Scanner s = new Scanner(System.in)) {
       System.out.print("Enter your wage: ");
       double wage = s.nextDouble();
-      System.out.printf("Well, you earn about %.1f minimum wages.\n", wage / MW);
+      System.out.printf("So you earn about %.1f minimum wages.\n", wage / MW);
     }
   }
 }
