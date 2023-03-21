@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class CalorieCalculator {
   enum Dishes {
-    VEGETARIAN(128), FISH(230), CHICKEN(250), MEAT(350);
+    VEGETARIAN(128), 
+    FISH(230), 
+    CHICKEN(250), 
+    MEAT(350);
 
     private int calory;
 
@@ -18,7 +21,10 @@ public class CalorieCalculator {
   }
 
   enum Desserts {
-    PINEAPPLE(75), DIET_ICE_CREAM(110), DIET_MOUSSE(170), CHOCOLATE_MOUSSE(200);
+    PINEAPPLE(75), 
+    DIET_ICE_CREAM(110), 
+    DIET_MOUSSE(170), 
+    CHOCOLATE_MOUSSE(200);
 
     private int calory;
 
@@ -32,7 +38,10 @@ public class CalorieCalculator {
   }
 
   enum Drinks {
-    TEA(20), ORANGE_JUICE(70), MELON_JUICE(100), DIET_SODA(65);
+    TEA(20), 
+    ORANGE_JUICE(70), 
+    MELON_JUICE(100), 
+    DIET_SODA(65);
 
     private int calory;
 
