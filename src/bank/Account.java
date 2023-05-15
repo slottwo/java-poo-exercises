@@ -20,6 +20,7 @@ public class Account {
   public String getAgency() {
     return this.agencyID;    
   }
+  
   public String getAccount() {
     return this.accountID;    
   }
